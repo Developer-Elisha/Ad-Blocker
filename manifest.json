@@ -1,0 +1,16 @@
+{
+    "name" : "E's AdBlocker",
+    "version" : "1.0",
+    "description" : "E's AdBlocker, developed by Elisha Noel, is a powerful Chrome extension designed to efficiently block ads across major advertising servers on YouTube and external websites.",
+    "permissions" : ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background" : {
+        "scripts" : ["script.js"]
+    },
+    
+    "icons" : { 
+        "128" : "icons/logo.png"
+     },
+
+    "manifest_version" : 2
+    
+}
